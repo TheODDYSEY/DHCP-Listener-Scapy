@@ -31,4 +31,6 @@ def print_packet(packet):
     if target_mac and vendor_id and hostname and requested_ip:
         # if all variables are not None, print the device details
         time_now = time.strftime("[%Y-%m-%d - %H:%M:%S]")
-        print(f"{time_now} : {target_mac}  -  {hostname} / {vendor_id} requested {requested_ip}")    
+        print(f"{time_now} : {target_mac}  -  {hostname} / {vendor_id} requested {requested_ip}") 
+if __name__ == "__main__":
+    listen_dhcp()           
