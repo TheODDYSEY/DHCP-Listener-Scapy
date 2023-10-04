@@ -1,4 +1,4 @@
-```markdown
+
 # DHCP Packet Listener
 
 This Python script listens for DHCP (Dynamic Host Configuration Protocol) packets on the network and extracts relevant information from these packets, such as the MAC address, requested IP address, hostname, and vendor ID of the devices making DHCP requests.
@@ -60,5 +60,5 @@ The output includes the timestamp, MAC address, hostname, vendor ID, and request
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
 
